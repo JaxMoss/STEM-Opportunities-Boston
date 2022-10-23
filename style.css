@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.section-headline{
+    color: #4e4d4d;
+    text-align: center;
+    font-size: 80px;
+}
+
+section{
+    padding: 70px 0;
+}
+
+.line{
+    height: 2px;
+    width: 200px;
+    background-color: lightgray;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.row{
+    width: 80%;
+    margin: 0 auto;
+    overflow: auto;
+}
+h1{
+font-family: 'Lato', sans-serif;
+font-size: 60px;
+font-weight: bold;
+}
+
+.img-section{
+    margin: 20px;
+    width: 50%;
+   float: left;
+    height: 80vh;
+    border-style: solid;
+    border-width: 5px;
+}
+
+ .place{
+   width: 40%;
+    float: left;
+    margin: 30px;
+     font-size: 50px;
+}
+
+.one-of-three{
+    width: 33.33%;
+    float: left;
+}
+
+
+.two-of-three{
+    width: 66.66%;
+    float: left;
+}
+    
+    .navdescription {
+         color: #4e4d4d;
+    text-align: center;
+    font-size: 40px;
+    }
+
+#header{
+    background-image: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.6)), url('../img/Cambridge-Science-Festival.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    position: relative;
+}
+
+
+#header nav{
+    position: relative;
+    padding: 30px 10px;
+    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6))
+}
+
+#header nav ul{
+    position: absolute;
+    font-size: 40px;
+    font-weight: bold;
+    right: 0;
+    top: 50%;
+    transform: translate(0,-50%);
+   list-style: none;
+}
+
+#header nav li{
+    float: left;
+    margin: 0 15px;
+}
+
+#header nav a{
+    color: white;
+    text-decoration: none;
+   
+}
+
+#header .headline-container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+  
+    #header .headline-container h2{
+    font-size: 80px;
+    margin-bottom: 45px;
+   
+}
+
+
+#navbar ul{
+      border: solid;
+    padding-left: 30px;
+    font-size: 25px;
+    margin: 30px;
+}
+
+#navbar {
+ background-color: #f4f4f4;
+    padding: 70px 0;
+}
+
+
+#donate .img-section{
+    margin: 20px;
+    width: 70%;
+   float: left;
+    height: 80vh;
+    border-style: solid;
+    border-width: 5px;
+}
+
+#donate .place{
+   width: 20%;
+    float: left;
+     font-size: 50px;
